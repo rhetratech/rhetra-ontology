@@ -1,0 +1,46 @@
+{
+  "name": "rhetra-ontology",
+  "version": "0.1.0",
+  "description": "Question-first auto-ontology. Point it at CSVs, SQLite or Postgres plus the question you're trying to answer, get a verified ontology back.",
+  "type": "module",
+  "bin": {
+    "rhetra-ontology": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "ontology",
+    "knowledge-graph",
+    "semantic-layer",
+    "llm",
+    "mcp",
+    "data-modeling",
+    "claude"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "csv-parse": "^7.0.3",
+    "pg": "^8.23.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/pg": "^8.23.1",
+    "typescript": "^7.0.2"
+  }
+}
