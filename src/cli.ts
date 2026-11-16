@@ -6,7 +6,7 @@ import { generateOntology } from "./index.js";
 import { DEFAULT_CLAUDE_MODEL, DEFAULT_OPENROUTER_MODEL } from "./infer.js";
 import { toMarkdown, toMermaid } from "./render.js";
 
-const HELP = `rhetra-ontology: question-first auto-ontology
+const HELP = `rhetra-ontology: turn your tables into a verified ontology
 
 Usage
   rhetra-ontology <source> [--problem "..."] [options]

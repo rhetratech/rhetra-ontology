@@ -1,7 +1,7 @@
 {
   "name": "rhetra-ontology",
-  "version": "0.1.0",
-  "description": "Question-first auto-ontology. Point it at CSVs, SQLite or Postgres plus the question you're trying to answer, get a verified ontology back.",
+  "version": "0.1.1",
+  "description": "Turn CSVs, SQLite or Postgres into a real-world ontology (objects, links, interfaces) with every link and key checked against your data.",
   "type": "module",
   "bin": {
     "rhetra-ontology": "dist/cli.js"
@@ -24,12 +24,23 @@
   },
   "keywords": [
     "ontology",
+    "auto-ontology",
     "knowledge-graph",
     "semantic-layer",
-    "llm",
-    "mcp",
     "data-modeling",
-    "claude"
+    "schema-inference",
+    "entity-relationship",
+    "er-diagram",
+    "mermaid",
+    "mcp",
+    "mcp-server",
+    "llm",
+    "claude",
+    "openrouter",
+    "postgres",
+    "sqlite",
+    "csv",
+    "cli"
   ],
   "license": "Apache-2.0",
   "dependencies": {
