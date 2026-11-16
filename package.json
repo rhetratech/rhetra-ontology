@@ -19,7 +19,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "ontology",
@@ -42,5 +43,13 @@
     "@types/node": "^26.6.6",
     "@types/pg": "^8.23.1",
     "typescript": "^7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhetratech/rhetra-ontology.git"
+  },
+  "homepage": "https://github.com/rhetratech/rhetra-ontology#readme",
+  "bugs": {
+    "url": "https://github.com/rhetratech/rhetra-ontology/issues"
   }
 }
